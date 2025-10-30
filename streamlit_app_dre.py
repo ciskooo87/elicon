@@ -37,7 +37,7 @@ if not data_path.exists():
     st.error("Arquivo 'BD.xlsx' não encontrado no diretório do app. Faça o upload em 'Files' do Streamlit Cloud ou adicione ao repo.")
     st.stop()
 
-df = load_data(str(data_path), sheet_name="bd")
+df = load_data(str(data_path), sheet_name="BD")
 
 # -----------------------------
 # Sidebar (Filtros)
